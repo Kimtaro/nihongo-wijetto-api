@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/Kimtaro/ve.git
+  revision: 27472f55aecf06e5ffc68f76c107b9d29ce9dd8a
+  ref: 27472f5
+  specs:
+    ve (0.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -166,9 +173,10 @@ DEPENDENCIES
   rails (~> 7.0.6)
   sqlite3 (~> 1.4)
   tzinfo-data
+  ve (= 0.0.3)!
 
 RUBY VERSION
-   ruby 3.1.4p223
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.2.32
