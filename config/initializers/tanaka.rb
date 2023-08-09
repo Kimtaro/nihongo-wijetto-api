@@ -49,5 +49,5 @@ tanaka_db_file = Rails.root.join('db').join('tanaka.db')
 if File.exist?(tanaka_db_file)
   TANAKA_DB = Marshal.load(File.binread(tanaka_db_file))
 else
-  TANAKA_DB = {}
+  TANAKA_DB = TanakaDb.new
 end
